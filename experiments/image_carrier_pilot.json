@@ -1,0 +1,77 @@
+{
+  "generated": "2026-07-16T14:32:02.207656+00:00",
+  "variant": "plain",
+  "n_per_cell": 30,
+  "judged": 360,
+  "per_model": {
+    "anthropic/claude-opus-4.8": {
+      "narrative_positional": {
+        "image_j": 0.9666666666666667,
+        "image_tpr": 1.0,
+        "image_fpr": 0.03333333333333333,
+        "unparsed": 0,
+        "text_informed_j": 0.9328859060402684
+      },
+      "synonym": {
+        "image_j": 0.8333333333333334,
+        "image_tpr": 0.8333333333333334,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.6123809523809524
+      },
+      "acrostic": {
+        "image_j": 0.36666666666666664,
+        "image_tpr": 0.36666666666666664,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.06765765765765766
+      }
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "narrative_positional": {
+        "image_j": 0.7666666666666667,
+        "image_tpr": 0.7666666666666667,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.9
+      },
+      "synonym": {
+        "image_j": 0.2,
+        "image_tpr": 0.2,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.7891156462585034
+      },
+      "acrostic": {
+        "image_j": 0.03333333333333333,
+        "image_tpr": 0.03333333333333333,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.18243243243243243
+      }
+    },
+    "openai/gpt-5.5": {
+      "narrative_positional": {
+        "image_j": 0.9666666666666667,
+        "image_tpr": 1.0,
+        "image_fpr": 0.03333333333333333,
+        "unparsed": 0,
+        "text_informed_j": 0.9866666666666667
+      },
+      "synonym": {
+        "image_j": 0.7333333333333333,
+        "image_tpr": 0.7333333333333333,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.9523809523809523
+      },
+      "acrostic": {
+        "image_j": 0.7,
+        "image_tpr": 0.7333333333333333,
+        "image_fpr": 0.03333333333333333,
+        "unparsed": 0,
+        "text_informed_j": 0.7533333333333334
+      }
+    }
+  }
+}

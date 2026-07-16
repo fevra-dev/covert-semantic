@@ -1,0 +1,86 @@
+{
+  "generated": "2026-07-16T14:53:19.582427+00:00",
+  "variant": "careful",
+  "n_per_cell": 30,
+  "judged": 540,
+  "per_model": {
+    "anthropic/claude-opus-4.8": {
+      "narrative_positional": {
+        "image_j": 0.9666666666666667,
+        "image_tpr": 1.0,
+        "image_fpr": 0.03333333333333333,
+        "unparsed": 0,
+        "text_informed_j": 0.9328859060402684,
+        "image_j_plain": 0.9666666666666667
+      },
+      "synonym": {
+        "image_j": 1.0,
+        "image_tpr": 1.0,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.6123809523809524,
+        "image_j_plain": 0.8333333333333334
+      },
+      "acrostic": {
+        "image_j": 0.39285714285714285,
+        "image_tpr": 0.39285714285714285,
+        "image_fpr": 0.0,
+        "unparsed": 2,
+        "text_informed_j": 0.06765765765765766,
+        "image_j_plain": 0.36666666666666664
+      }
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "narrative_positional": {
+        "image_j": 0.0,
+        "image_tpr": 0.0,
+        "image_fpr": 0.0,
+        "unparsed": 42,
+        "text_informed_j": 0.9,
+        "image_j_plain": 0.7666666666666667
+      },
+      "synonym": {
+        "image_j": 0.625,
+        "image_tpr": 0.625,
+        "image_fpr": 0.0,
+        "unparsed": 29,
+        "text_informed_j": 0.7891156462585034,
+        "image_j_plain": 0.2
+      },
+      "acrostic": {
+        "image_j": 0.0,
+        "image_tpr": 0.0,
+        "image_fpr": 0.0,
+        "unparsed": 26,
+        "text_informed_j": 0.18243243243243243,
+        "image_j_plain": 0.03333333333333333
+      }
+    },
+    "openai/gpt-5.5": {
+      "narrative_positional": {
+        "image_j": 0.9,
+        "image_tpr": 0.9666666666666667,
+        "image_fpr": 0.06666666666666667,
+        "unparsed": 0,
+        "text_informed_j": 0.9866666666666667,
+        "image_j_plain": 0.9666666666666667
+      },
+      "synonym": {
+        "image_j": 0.5333333333333333,
+        "image_tpr": 0.5666666666666667,
+        "image_fpr": 0.03333333333333333,
+        "unparsed": 0,
+        "text_informed_j": 0.9523809523809523,
+        "image_j_plain": 0.7333333333333333
+      },
+      "acrostic": {
+        "image_j": 0.43333333333333335,
+        "image_tpr": 0.43333333333333335,
+        "image_fpr": 0.0,
+        "unparsed": 0,
+        "text_informed_j": 0.7533333333333334,
+        "image_j_plain": 0.7
+      }
+    }
+  }
+}

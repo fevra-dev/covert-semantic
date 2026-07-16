@@ -1,0 +1,31 @@
+[project]
+name = "csd"
+version = "0.1.0"
+description = "Covert-Semantic Detector — black-box detection of LLM semantic steganography"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+    "scikit-learn>=1.4",
+    "pillow>=12.3.0",
+]
+
+[project.optional-dependencies]
+# llama-cpp-python>=0.2.72 closes CVE-2024-34359 (GGUF chat-template SSTI); we use the
+# generation-free tokenize+eval+scores path (no chat template ever rendered) regardless.
+local = ["llama-cpp-python>=0.2.80", "huggingface_hub[cli]>=0.23"]
+live = ["httpx>=0.27"]   # ApiSender's frontier-sender HTTP client (OpenRouter/Venice)
+dev = ["pytest>=8", "ruff>=0.4", "bandit>=1.7"]
+
+[tool.uv]
+package = false        # app, not a distributable wheel; tests use pythonpath instead
+
+[tool.ruff]
+line-length = 100
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

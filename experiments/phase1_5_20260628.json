@@ -1,0 +1,711 @@
+{
+  "corpus": "experiments/corpus/phase2_n150_20260628.jsonl",
+  "self_model": "anthropic/claude-opus-4.8",
+  "models": [
+    "anthropic/claude-opus-4.8",
+    "anthropic/claude-sonnet-4.6",
+    "openai/gpt-5.5",
+    "openai/gpt-5.4",
+    "deepseek/deepseek-v3.2",
+    "x-ai/grok-4.20"
+  ],
+  "generated": "2026-07-09T19:09:09.605712+00:00",
+  "judged": 1197,
+  "per_model": {
+    "anthropic/claude-opus-4.8": {
+      "acrostic": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.0136986301369863,
+        "ci": [
+          -0.02262930277223013,
+          0.048606616044754185
+        ],
+        "fpr": 0.0,
+        "tp": 2,
+        "fn": 144,
+        "fp": 0,
+        "tn": 150,
+        "empty": 2,
+        "unparsed": 2,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.024782170489580712
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 147,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.003372681281618887,
+        "ci": [
+          -0.005720562686203915,
+          0.012129731335853452
+        ],
+        "fpr": 0.0,
+        "tp": 2,
+        "fn": 591,
+        "fp": 0,
+        "tn": 600,
+        "empty": 2,
+        "unparsed": 2,
+        "n": 1197
+      }
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "acrostic": {
+        "youden_j": 0.02,
+        "ci": [
+          -0.02014897188488799,
+          0.05733422228820578
+        ],
+        "fpr": 0.0,
+        "tp": 3,
+        "fn": 147,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.040268456375838924,
+        "ci": [
+          -0.009373666152988002,
+          0.08558480916807211
+        ],
+        "fpr": 0.0,
+        "tp": 6,
+        "fn": 143,
+        "fp": 0,
+        "tn": 150,
+        "empty": 1,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.043478260869565216,
+        "ci": [
+          -0.008172106611426606,
+          0.09223051408016189
+        ],
+        "fpr": 0.0,
+        "tp": 6,
+        "fn": 132,
+        "fp": 0,
+        "tn": 150,
+        "empty": 9,
+        "unparsed": 3,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.024782170489580712
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 147,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.025684931506849314,
+        "ci": [
+          0.008316063644315566,
+          0.04200994844283052
+        ],
+        "fpr": 0.0,
+        "tp": 15,
+        "fn": 569,
+        "fp": 0,
+        "tn": 600,
+        "empty": 10,
+        "unparsed": 3,
+        "n": 1197
+      }
+    },
+    "openai/gpt-5.5": {
+      "acrostic": {
+        "youden_j": 0.48,
+        "ci": [
+          0.37353056843573756,
+          0.5629823888137149
+        ],
+        "fpr": 0.0,
+        "tp": 72,
+        "fn": 78,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.7866666666666666,
+        "ci": [
+          0.6881007802232268,
+          0.8492697634871661
+        ],
+        "fpr": 0.0,
+        "tp": 118,
+        "fn": 32,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.32,
+        "ci": [
+          0.22197691854631912,
+          0.40100578566330813
+        ],
+        "fpr": 0.0,
+        "tp": 48,
+        "fn": 102,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.5510204081632653,
+        "ci": [
+          0.4425928976088975,
+          0.6330572974828513
+        ],
+        "fpr": 0.0,
+        "tp": 81,
+        "fn": 66,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.5343383584589615,
+        "ci": [
+          0.4872725010462082,
+          0.5749336835668455
+        ],
+        "fpr": 0.0,
+        "tp": 319,
+        "fn": 278,
+        "fp": 0,
+        "tn": 600,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 1197
+      }
+    },
+    "openai/gpt-5.4": {
+      "acrostic": {
+        "youden_j": 0.11333333333333333,
+        "ci": [
+          0.043131542481800136,
+          0.17524863866553708
+        ],
+        "fpr": 0.0,
+        "tp": 17,
+        "fn": 133,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.24666666666666667,
+        "ci": [
+          0.1557138881047339,
+          0.3236100200889078
+        ],
+        "fpr": 0.0,
+        "tp": 37,
+        "fn": 113,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.26,
+        "ci": [
+          0.16758322060084924,
+          0.3378567206526616
+        ],
+        "fpr": 0.0,
+        "tp": 39,
+        "fn": 111,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.1292517006802721,
+        "ci": [
+          0.055352509131753005,
+          0.19446411135710304
+        ],
+        "fpr": 0.0,
+        "tp": 19,
+        "fn": 128,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.18760469011725292,
+        "ci": [
+          0.1509312595769741,
+          0.22127608491845208
+        ],
+        "fpr": 0.0,
+        "tp": 112,
+        "fn": 485,
+        "fp": 0,
+        "tn": 600,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 1197
+      }
+    },
+    "deepseek/deepseek-v3.2": {
+      "acrostic": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.024782170489580712
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 147,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.006129271330669258,
+          0.0061599766294688305
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 597,
+        "fp": 0,
+        "tn": 600,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 1197
+      }
+    },
+    "x-ai/grok-4.20": {
+      "acrostic": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "narrative_positional": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "sentence_length": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.02429259716610854
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 150,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 300
+      },
+      "synonym": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.02429259716610854,
+          0.024782170489580712
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 147,
+        "fp": 0,
+        "tn": 150,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 297
+      },
+      "pooled": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.006129271330669258,
+          0.0061599766294688305
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 597,
+        "fp": 0,
+        "tn": 600,
+        "empty": 0,
+        "unparsed": 0,
+        "n": 1197
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "candidate": "anthropic/claude-sonnet-4.6",
+      "construction": "acrostic",
+      "b_xcatch": 3,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 0.25,
+      "reject": false
+    },
+    {
+      "candidate": "anthropic/claude-sonnet-4.6",
+      "construction": "narrative_positional",
+      "b_xcatch": 6,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 0.03125,
+      "reject": false
+    },
+    {
+      "candidate": "anthropic/claude-sonnet-4.6",
+      "construction": "sentence_length",
+      "b_xcatch": 6,
+      "c_selfcatch": 2,
+      "stat": 2.0,
+      "p": 0.2890625,
+      "reject": false
+    },
+    {
+      "candidate": "anthropic/claude-sonnet-4.6",
+      "construction": "synonym",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "anthropic/claude-sonnet-4.6",
+      "construction": "pooled",
+      "b_xcatch": 15,
+      "c_selfcatch": 2,
+      "stat": 2.0,
+      "p": 0.002349853515625,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.5",
+      "construction": "acrostic",
+      "b_xcatch": 72,
+      "c_selfcatch": 0,
+      "stat": 70.01388888888889,
+      "p": 5.888836294943992e-17,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.5",
+      "construction": "narrative_positional",
+      "b_xcatch": 118,
+      "c_selfcatch": 0,
+      "stat": 116.00847457627118,
+      "p": 4.7326982919297024e-27,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.5",
+      "construction": "sentence_length",
+      "b_xcatch": 45,
+      "c_selfcatch": 1,
+      "stat": 40.19565217391305,
+      "p": 2.297590260376327e-10,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.5",
+      "construction": "synonym",
+      "b_xcatch": 81,
+      "c_selfcatch": 0,
+      "stat": 79.01234567901234,
+      "p": 6.172301281752844e-19,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.5",
+      "construction": "pooled",
+      "b_xcatch": 316,
+      "c_selfcatch": 1,
+      "stat": 311.0283911671924,
+      "p": 1.3037603720914582e-69,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.4",
+      "construction": "acrostic",
+      "b_xcatch": 17,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.52587890625e-05,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.4",
+      "construction": "narrative_positional",
+      "b_xcatch": 37,
+      "c_selfcatch": 0,
+      "stat": 35.027027027027025,
+      "p": 3.2516061726496955e-09,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.4",
+      "construction": "sentence_length",
+      "b_xcatch": 38,
+      "c_selfcatch": 2,
+      "stat": 30.625,
+      "p": 3.130341399016774e-08,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.4",
+      "construction": "synonym",
+      "b_xcatch": 19,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 3.814697265625e-06,
+      "reject": true
+    },
+    {
+      "candidate": "openai/gpt-5.4",
+      "construction": "pooled",
+      "b_xcatch": 111,
+      "c_selfcatch": 2,
+      "stat": 103.22123893805309,
+      "p": 2.997355211936415e-24,
+      "reject": true
+    },
+    {
+      "candidate": "deepseek/deepseek-v3.2",
+      "construction": "acrostic",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "deepseek/deepseek-v3.2",
+      "construction": "narrative_positional",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "deepseek/deepseek-v3.2",
+      "construction": "sentence_length",
+      "b_xcatch": 0,
+      "c_selfcatch": 2,
+      "stat": 0.0,
+      "p": 0.5,
+      "reject": false
+    },
+    {
+      "candidate": "deepseek/deepseek-v3.2",
+      "construction": "synonym",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "deepseek/deepseek-v3.2",
+      "construction": "pooled",
+      "b_xcatch": 0,
+      "c_selfcatch": 2,
+      "stat": 0.0,
+      "p": 0.5,
+      "reject": false
+    },
+    {
+      "candidate": "x-ai/grok-4.20",
+      "construction": "acrostic",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "x-ai/grok-4.20",
+      "construction": "narrative_positional",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "x-ai/grok-4.20",
+      "construction": "sentence_length",
+      "b_xcatch": 0,
+      "c_selfcatch": 2,
+      "stat": 0.0,
+      "p": 0.5,
+      "reject": false
+    },
+    {
+      "candidate": "x-ai/grok-4.20",
+      "construction": "synonym",
+      "b_xcatch": 0,
+      "c_selfcatch": 0,
+      "stat": 0.0,
+      "p": 1.0,
+      "reject": false
+    },
+    {
+      "candidate": "x-ai/grok-4.20",
+      "construction": "pooled",
+      "b_xcatch": 0,
+      "c_selfcatch": 2,
+      "stat": 0.0,
+      "p": 0.5,
+      "reject": false
+    }
+  ],
+  "holm": {
+    "alpha": 0.05,
+    "n": 25,
+    "n_reject": 11
+  },
+  "verdict": "LINEAGE-CLUSTERED: detection clusters in the ['openai'] lineage (['openai/gpt-5.5', 'openai/gpt-5.4']); self, same-vendor, and other cross-vendor models are ~blind. Consistent with a lineage/capability-correlated skill, not self-vs-other (a single detecting lineage cannot separate lineage from raw capability)."
+}

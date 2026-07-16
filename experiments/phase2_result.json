@@ -1,0 +1,194 @@
+{
+  "mode": "mock",
+  "n": 40,
+  "per_construction": {
+    "narrative_positional": {
+      "perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.08809730287880237,
+          0.08809730287880237
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 40,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.08809730287880237,
+          0.08809730287880237
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 40,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 1.0,
+        "ci": [
+          0.8238053942423953,
+          1.0
+        ],
+        "fpr": 0.0,
+        "tp": 40,
+        "fn": 0,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    },
+    "acrostic": {
+      "perplexity": {
+        "youden_j": 1.0,
+        "ci": [
+          0.8238053942423953,
+          1.0
+        ],
+        "fpr": 0.0,
+        "tp": 40,
+        "fn": 0,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.08809730287880237,
+          0.08809730287880237
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 40,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 1.0,
+        "ci": [
+          0.8238053942423953,
+          1.0
+        ],
+        "fpr": 0.0,
+        "tp": 40,
+        "fn": 0,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    },
+    "synonym": {
+      "perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.08809730287880237,
+          0.08809730287880237
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 40,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.08809730287880237,
+          0.08809730287880237
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 40,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 1.0,
+        "ci": [
+          0.8238053942423953,
+          1.0
+        ],
+        "fpr": 0.0,
+        "tp": 40,
+        "fn": 0,
+        "fp": 0,
+        "tn": 40,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    }
+  },
+  "held_out": {
+    "narrative_positional": {
+      "youden_j": 1.0,
+      "ci": [
+        0.8238053942423953,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tp": 40,
+      "fn": 0,
+      "fp": 0,
+      "tn": 40,
+      "empty": 0,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    },
+    "acrostic": {
+      "youden_j": 0.0,
+      "ci": [
+        -0.08809730287880237,
+        0.08809730287880237
+      ],
+      "fpr": 0.0,
+      "tp": 0,
+      "fn": 40,
+      "fp": 0,
+      "tn": 40,
+      "empty": 0,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    },
+    "synonym": {
+      "youden_j": 0.0,
+      "ci": [
+        -0.08809730287880237,
+        0.08809730287880237
+      ],
+      "fpr": 0.0,
+      "tp": 0,
+      "fn": 40,
+      "fp": 0,
+      "tn": 40,
+      "empty": 0,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    }
+  }
+}

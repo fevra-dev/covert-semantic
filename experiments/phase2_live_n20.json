@@ -1,0 +1,194 @@
+{
+  "mode": "live",
+  "n": 20,
+  "per_construction": {
+    "narrative_positional": {
+      "perplexity": {
+        "youden_j": 0.8,
+        "ci": [
+          0.36603457196183536,
+          0.9753029456594104
+        ],
+        "fpr": 0.1,
+        "tp": 18,
+        "fn": 2,
+        "fp": 2,
+        "tn": 18,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.16843347098308528,
+          0.16843347098308528
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 20,
+        "fp": 0,
+        "tn": 20,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 0.6,
+        "ci": [
+          0.1300273017467286,
+          0.8813575937131016
+        ],
+        "fpr": 0.25,
+        "tp": 17,
+        "fn": 3,
+        "fp": 5,
+        "tn": 15,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    },
+    "acrostic": {
+      "perplexity": {
+        "youden_j": 0.1,
+        "ci": [
+          -0.25964871696904956,
+          0.4242654758263735
+        ],
+        "fpr": 0.1,
+        "tp": 4,
+        "fn": 16,
+        "fp": 2,
+        "tn": 18,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.16843347098308528,
+          0.16843347098308528
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 20,
+        "fp": 0,
+        "tn": 20,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 0.55,
+        "ci": [
+          0.0908287514480895,
+          0.833742268045164
+        ],
+        "fpr": 0.1,
+        "tp": 13,
+        "fn": 7,
+        "fp": 2,
+        "tn": 18,
+        "empty": 0,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    },
+    "synonym": {
+      "perplexity": {
+        "youden_j": 0.35555555555555557,
+        "ci": [
+          -0.12904234399791215,
+          0.7273644955626674
+        ],
+        "fpr": 0.2,
+        "tp": 10,
+        "fn": 8,
+        "fp": 4,
+        "tn": 16,
+        "empty": 2,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "cross_perplexity": {
+        "youden_j": 0.0,
+        "ci": [
+          -0.16843347098308528,
+          0.1853019681378522
+        ],
+        "fpr": 0.0,
+        "tp": 0,
+        "fn": 18,
+        "fp": 0,
+        "tn": 20,
+        "empty": 2,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      },
+      "distributional": {
+        "youden_j": 0.7888888888888889,
+        "ci": [
+          0.3358968473722456,
+          0.9739002571653407
+        ],
+        "fpr": 0.1,
+        "tp": 16,
+        "fn": 2,
+        "fp": 2,
+        "tn": 18,
+        "empty": 2,
+        "unparsed": 0,
+        "baseline_target_J": 0.58
+      }
+    }
+  },
+  "held_out": {
+    "narrative_positional": {
+      "youden_j": 0.35,
+      "ci": [
+        -0.13050328440046777,
+        0.7222384701732582
+      ],
+      "fpr": 0.25,
+      "tp": 12,
+      "fn": 8,
+      "fp": 5,
+      "tn": 15,
+      "empty": 0,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    },
+    "acrostic": {
+      "youden_j": 0.05,
+      "ci": [
+        -0.23638423560173297,
+        0.31571762452113256
+      ],
+      "fpr": 0.05,
+      "tp": 2,
+      "fn": 18,
+      "fp": 1,
+      "tn": 19,
+      "empty": 0,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    },
+    "synonym": {
+      "youden_j": 0.5777777777777777,
+      "ci": [
+        0.08701323126685145,
+        0.8785739552323008
+      ],
+      "fpr": 0.2,
+      "tp": 14,
+      "fn": 4,
+      "fp": 4,
+      "tn": 16,
+      "empty": 2,
+      "unparsed": 0,
+      "baseline_target_J": 0.58
+    }
+  }
+}
