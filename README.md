@@ -57,6 +57,21 @@ chokepoint (never the image), and watch its false-positive rate per model.
 
 ---
 
+## Related work — the sender side, on the other channel
+
+Public red-team steganography tooling (e.g. *P4RS3LT0NGV3*, elder-plinius) is the *sender-side,
+physical-channel* counterpart to this work: ~222 character/format transforms — Unicode styling,
+emoji variation-selector and invisible-Tag stego, ciphers, bijections, QR/barcode-to-vision — that
+*generate* obfuscated payloads but measure no monitor, and none of which is a semantic/rhetorical
+encoding. This project studies the complementary question on the opposite channel: whether a
+*monitor* detects a payload hidden in the *meaning* of fluent, unmodified natural-language text
+(no Unicode carrier), and how that detection degrades under a modality shift. Siblings in one
+"perceptual-mismatch" family (physical vs. semantic channel), not overlapping contributions — and
+the fact that the dominant public tooling is all-physical-channel is itself evidence that the
+semantic/rhetorical class studied here is comparatively unmonitored (see `PRIOR_ART.md`).
+
+---
+
 ## Reproduce
 
 Requires [`uv`](https://docs.astral.sh/uv/) and a local reference model (see
@@ -85,6 +100,7 @@ analyses re-run offline and for free. `experiments/*.json` are the committed res
 | `docs/` | design + per-phase results memos (the rigor record) |
 | `PRIOR_ART.md` | the novelty gate — what is reproduction vs. contribution |
 | `FINDINGS-plain.md` | plain-language summary |
+| `docs/FUTURE-WORK.md` | the research agenda these results open |
 
 ## Honesty & attribution
 
